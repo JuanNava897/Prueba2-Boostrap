@@ -1267,7 +1267,7 @@
 				<!-- Basic datatable -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Transportes</h5>
+						<h5 class="card-title">Basic datatable</h5>
 						<div class="header-elements">
 							<div class="list-icons">
 		                		<a class="list-icons-item" data-action="collapse"></a>
@@ -1276,110 +1276,21 @@
 		                	</div>
 	                	</div>
 					</div>
-					
+					<button class="btn btn-primary">Editar</button>
 
 					<!-- <div class="card-body">
 						The <code>DataTables</code> is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table. DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function. Searching, ordering, paging etc goodness will be immediately added to the table, as shown in this example. <strong>Datatables support all available table styling.</strong>
 					</div> -->
-					<!-- Input group addons -->
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Input group addons</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
 
-					<!--<div class="card-body">
-						<p class="mb-4">Extend form controls by adding text or buttons before, after, or on both sides of any text-based <code>&lt;input></code>. Use <code>.input-group</code> with an <code>.input-group-prepend</code> to prepend or <code>.input-group-append</code> to append elements to a single <code>.form-control</code>. Place one add-on or button on either side of an input. You may also place one on both sides of an input. While multiple <code>&lt;input></code>s are supported visually, validation styles are only available for input groups with a single <code>&lt;input></code>.</p> -->
-
-						<form action="#">
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Formulario</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Matricula</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-										
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">carrera</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">fecha de pago</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">ruta</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">horario</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-
-								
-
-					<!--<table class="table datatable-basic">
+					<table class="table datatable-basic">
 						<thead>
 							<tr>
-								<th>Matricula</th>
-								<th>Nombre</th>
-								<th>Carrera</th>
-								<th>fecha de pago</th>
-								<th>Ruta</th>
-								<th>Horario</th>
-								
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Job Title</th>
+								<th>DOB</th>
+								<th>Status</th>
+								<th class="text-center">Actions</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -2097,7 +2008,7 @@
 	                	</div>
 					</div>
 
-					<!-- <div class="card-body">
+					<div class="card-body">
 						DataTables has the option of being able to <code>save the state</code> of a table: its paging position, ordering state etc., so that is can be restored when the user reloads a page, or comes back to the page after visiting a sub-page. This state saving ability is enabled by the <code>stateSave</code> option. The <code>duration</code> for which the saved state is valid can be set using the <code>stateDuration</code> initialisation parameter (2 hours by default).
 					</div>
 

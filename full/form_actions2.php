@@ -23,11 +23,12 @@
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/tables/datatables/datatables.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="../../../../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
 	<script src="../../../../global_assets/js/plugins/forms/selects/select2.min.js"></script>
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/datatables_basic.js"></script>
+	<script src="../../../../global_assets/js/demo_pages/form_actions.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -479,12 +480,12 @@
 						<li class="nav-item"><a href="../../../RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>
 						<!-- /main -->
 
-						<!-- Forms 
+						<!-- Forms -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu" title="Forms"></i></li>
-						<li class="nav-item nav-item-submenu">
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-pencil3"></i> <span>Form components</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form components">
-								<li class="nav-item"><a href="form_inputs.html" class="nav-link">Basic inputs</a></li>
+								<!-- <li class="nav-item"><a href="form_inputs.html" class="nav-link">Basic inputs</a></li>
 								<li class="nav-item"><a href="form_checkboxes_radios.html" class="nav-link">Checkboxes &amp; radios</a></li>
 								<li class="nav-item"><a href="form_select2.html" class="nav-link">Select2 selects</a></li>
 								<li class="nav-item"><a href="form_multiselect.html" class="nav-link">Bootstrap multiselect</a></li>
@@ -495,7 +496,7 @@
 								<li class="nav-item"><a href="form_dual_listboxes.html" class="nav-link">Dual Listboxes</a></li>
 								<li class="nav-item"><a href="form_validation.html" class="nav-link">Validation</a></li>
 								<li class="nav-item"><a href="form_wizard.html" class="nav-link">Form wizard</a></li>
-								<li class="nav-item"><a href="form_actions.html" class="nav-link">Form actions</a></li>
+								<li class="nav-item"><a href="form_actions.html" class="nav-link active">Form actions</a></li>
 								<li class="nav-item"><a href="form_inputs_grid.html" class="nav-link">Inputs grid</a></li>
 							</ul>
 						</li>
@@ -536,7 +537,7 @@
 						</li>
 						<!-- /forms -->
 
-						<!-- Components
+						<!-- Components --
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Components</div> <i class="icon-menu" title="Components"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Basic components</span></a>
@@ -641,7 +642,7 @@
 						</li>
 						<!-- /components -->
 
-						<!-- Layout 
+						<!-- Layout --
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Layout</div> <i class="icon-menu" title="Layout options"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-stack2"></i> <span>Page layouts</span></a>
@@ -806,7 +807,7 @@
 						</li>
 						<!-- /layout -->
 
-						<!-- Data visualization 
+						<!-- Data visualization --
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Data visualization</div> <i class="icon-menu" title="Data visualization"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-graph"></i> <span>Echarts library</span></a>
@@ -910,7 +911,7 @@
 						</li>
 						<!-- /data visualization -->
 
-						<!-- Extensions 
+						<!-- Extensions --
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Extensions</div> <i class="icon-menu" title="Extensions"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-puzzle4"></i> <span>Extensions</span></a>
@@ -969,11 +970,11 @@
 								<li class="nav-item"><a href="table_styling.html" class="nav-link">Table styling</a></li>
 								<li class="nav-item"><a href="table_elements.html" class="nav-link">Table elements</a></li>
 							</ul>
-						</li>
-						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+						</li> --
+						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid7"></i> <span>Data tables</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables">
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link active">Basic initialization</a></li>
+								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Basic initialization</a></li>
 								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Basic styling</a></li>
 								<li class="nav-item"><a href="datatable_advanced.html" class="nav-link">Advanced examples</a></li>
 								<li class="nav-item"><a href="datatable_sorting.html" class="nav-link">Sorting options</a></li>
@@ -981,7 +982,7 @@
 								<li class="nav-item"><a href="datatable_data_sources.html" class="nav-link">Data sources</a></li>
 							</ul>
 						</li>
-						<li class="nav-item nav-item-submenu">
+						<!-- <li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-alignment-unalign"></i> <span>Data tables extensions</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Data tables extensions">
 								<li class="nav-item"><a href="datatable_extension_reorder.html" class="nav-link">Columns reorder</a></li>
@@ -1027,7 +1028,7 @@
 						</li>
 						<!-- /tables -->
 
-						<!-- Page kits 
+						<!-- Page kits --
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Page kits</div> <i class="icon-menu" title="Page kits"></i></li>
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid6"></i> <span>General pages</span></a>
@@ -1209,7 +1210,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Datatables</span> - Basic</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Forms</span> - Actions</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1226,8 +1227,8 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<a href="datatable_basic.html" class="breadcrumb-item">Datatables</a>
-							<span class="breadcrumb-item active">Basic</span>
+							<a href="form_actions.html" class="breadcrumb-item">Forms</a>
+							<span class="breadcrumb-item active">Actions</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -1264,1554 +1265,1284 @@
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Basic datatable -->
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Transportes</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-					
-
-					<!-- <div class="card-body">
-						The <code>DataTables</code> is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table. DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function. Searching, ordering, paging etc goodness will be immediately added to the table, as shown in this example. <strong>Datatables support all available table styling.</strong>
-					</div> -->
-					<!-- Input group addons -->
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Input group addons</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<!--<div class="card-body">
-						<p class="mb-4">Extend form controls by adding text or buttons before, after, or on both sides of any text-based <code>&lt;input></code>. Use <code>.input-group</code> with an <code>.input-group-prepend</code> to prepend or <code>.input-group-append</code> to append elements to a single <code>.form-control</code>. Place one add-on or button on either side of an input. You may also place one on both sides of an input. While multiple <code>&lt;input></code>s are supported visually, validation styles are only available for input groups with a single <code>&lt;input></code>.</p> -->
-
-						<form action="#">
-							<fieldset class="mb-3">
-								<legend class="text-uppercase font-size-sm font-weight-bold">Formulario</legend>
-
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Matricula</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-										
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">Nombre</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">carrera</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">fecha de pago</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">ruta</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-form-label col-lg-2">horario</label>
-									<div class="col-lg-10">
-										<div class="input-group">
-											<span class="input-group-prepend">
-												
-											</span>
-											<input type="text" class="form-control" placeholder="Left addon">
-										</div>
-									</div>
-								</div>
-
-								
-
-					<!--<table class="table datatable-basic">
-						<thead>
-							<tr>
-								<th>Matricula</th>
-								<th>Nombre</th>
-								<th>Carrera</th>
-								<th>fecha de pago</th>
-								<th>Ruta</th>
-								<th>Horario</th>
-								
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+				<!-- Form action components -->
+				<div class="mb-3">
+					<h6 class="mb-0 font-weight-semibold">
+						Form action components
+					</h6>
+					<span class="text-muted d-block">Form actions with mixed elements</span>
 				</div>
-				<!-- /basic datatable -->
+
+				<div class="row">
+					<div class="col-md-4">
+			        	
+	                	<!-- Left aligned buttons -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Left aligned buttons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-start align-items-center">
+										<button type="submit" class="btn btn-light">Cancel</button>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /left aligned buttons -->
 
 
-				<!-- Pagination types 
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Pagination types</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
+		        		<!-- Text + button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Text + button</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-between align-items-center">
+										<span class="text-muted"><i class="icon-code"></i> &nbsp; Some HTML is supported</span>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /text + button -->
+
+
+		        		<!-- Inline list + button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Inline list + button</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+								<div class="form-group">
+									<label>Your name:</label>
+									<input type="text" class="form-control" placeholder="Eugene Kopyov">
+								</div>
+
+								<div class="form-group">
+									<label>Your password:</label>
+									<input type="password" class="form-control" placeholder="Your strong password">
+								</div>
+
+								<div class="form-group">
+									<label>Your message:</label>
+									<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="list-inline mb-0">
+				                		<a href="#" class="list-inline-item text-default">Support</a>
+				                		<a href="#" class="list-inline-item text-default">Terms</a>
+				                		<a href="#" class="list-inline-item text-default">Policy</a>
+				                	</div>
+
+									<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+								</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /inline list + button -->
+
+
+		        		<!-- Checkbox + button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Checkbox + button</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="form-check form-check-inline">
+											<label class="form-check-label">
+												<input type="checkbox" class="form-control-styled" checked data-fouc>
+												Save as template
+											</label>
+										</div>
+
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /checkbox + button -->
+
 					</div>
 
-					<div class="card-body">
-						The default page control (forward and backward buttons with up to 7 page numbers in-between) is fine for most situations, but in some cases you may wish to customise the options presented to the end user. This is done through DataTables' extensible pagination mechanism, the <code>pagingType</code> option. Supported pagination types are: <code>simple</code>, <code>simple_numbers</code>, <code>full</code> and <code>full_numbers</code>. This example shows <code>simple</code> pagination type.
+					<div class="col-md-4">
+
+		                <!-- Right aligned buttons -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Right aligned buttons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-end align-items-center">
+										<button type="submit" class="btn btn-light">Preview</button>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /right aligned buttons -->
+
+
+			        	<!-- Text link + button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Text link + button</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="#">Can't send message?</a>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /text link + button -->
+
+
+		        		<!-- Icon list + button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Icon list + button</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="list-icons">
+					                		<a href="#" class="list-icons-item mr-2"><i class="icon-github"></i></a>
+					                		<a href="#" class="list-icons-item mr-2"><i class="icon-stackoverflow"></i></a>
+					                		<a href="#" class="list-icons-item mr-2"><i class="icon-google-drive"></i></a>
+					                	</div>
+
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /icon list + button -->
+
+
+		        		<!-- Switch + button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Switch + button</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="form-check form-check-switchery mb-0">
+											<label class="form-check-label">
+												<input type="checkbox" class="form-control-switchery" checked data-fouc>
+												Start discussion
+											</label>
+										</div>
+
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+	                	<!-- /switch + button -->
+
 					</div>
 
-					<table class="table datatable-pagination">
-						<thead>
-							<tr>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Job Title</th>
-								<th>DOB</th>
-								<th>Status</th>
-								<th class="text-center">Actions</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+					<div class="col-md-4">
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+			        	<!-- Left and right buttons -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Left/right buttons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-between align-items-center">
+										<button type="submit" class="btn btn-light">Cancel</button>
+										<button type="submit" class="btn bg-blue">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /left and right buttons -->
+
+
+		        		<!-- Status text + button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Status text + button</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-between align-items-center">
+										<span><i class="icon-spinner2 spinner mr-2"></i> Processing...</span>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /status text + button -->
+
+
+		        		<!-- Left alternate button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Left alternate button</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="d-flex justify-content-between align-items-center">
+										<a href="#" class="btn btn-light btn-icon"><i class="icon-help"></i></a>
+										<div class="d-inline-flex">
+											<button type="reset" class="btn btn-light">Cancel</button>
+											<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
 										</div>
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</form>
+							</div>
+		                </div>
+		                <!-- /left alternate button -->
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
+		        		<!-- Select + button -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Select + button</h6>
+								<div class="header-elements">
 									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
+									<div class="d-lg-flex justify-content-between align-items-center flex-wrap">
+										<div class="wmin-lg-200 mb-3 mb-lg-0">
+											<select class="form-control form-control-select2" data-placeholder="Actions" data-fouc>
+												<option></option>
+												<option value="1">Send to all contacts</option>
+												<option value="2">Send to my contacts</option>
+												<option value="3">Save as draft</option>
+												<option value="4">Don't have in Sent</option>
+											</select>
 										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
+										<button type="submit" class="btn bg-blue ml-lg-3">Submit <i class="icon-paperplane ml-2"></i></button>
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</form>
+							</div>
+		                </div>
+		                <!-- /select + button -->
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+					</div>
 				</div>
-				<!-- /pagination types -->
+				<!-- /form action components -->
 
 
-				<!-- State saving -
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">State saving</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
-					</div>
-
-					<!-- <div class="card-body">
-						DataTables has the option of being able to <code>save the state</code> of a table: its paging position, ordering state etc., so that is can be restored when the user reloads a page, or comes back to the page after visiting a sub-page. This state saving ability is enabled by the <code>stateSave</code> option. The <code>duration</code> for which the saved state is valid can be set using the <code>stateDuration</code> initialisation parameter (2 hours by default).
-					</div>
-
-					<table class="table datatable-save-state">
-						<thead>
-							<tr>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Job Title</th>
-								<th>DOB</th>
-								<th>Status</th>
-								<th class="text-center">Actions</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+				<!-- Form actions positioning -->
+				<div class="mb-3 pt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Form actions alignment
+					</h6>
+					<span class="text-muted d-block">Using text or flexbox utility classes</span>
 				</div>
-				<!-- /state saving -->
 
+				<div class="row">
+					<div class="col-md-4">
+			        	
+			        	<!-- Left alignment -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Left aligned</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
 
-				<!-- Scrollable datatable -
-				<div class="card">
-					<div class="card-header header-elements-inline">
-						<h5 class="card-title">Scrollable datatable</h5>
-						<div class="header-elements">
-							<div class="list-icons">
-		                		<a class="list-icons-item" data-action="collapse"></a>
-		                		<a class="list-icons-item" data-action="reload"></a>
-		                		<a class="list-icons-item" data-action="remove"></a>
-		                	</div>
-	                	</div>
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<button type="submit" class="btn bg-teal-400">Submit form <i class="icon-paperplane ml-2"></i></button>
+								</form>
+							</div>
+		                </div>
+		                <!-- /left alignment -->
+
 					</div>
 
-					<div class="card-body">
-						This example shows the DataTables table body <code>scrolling</code> in the <code>vertical</code> direction. This can generally be seen as an alternative method to pagination for displaying a large table in a fairly small vertical area, and as such pagination has been disabled here. Note that this is not mandatory, it will work just fine with pagination enabled as well!.
+					<div class="col-md-4">
+			        	
+		        		<!-- Centered buttons -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Centered actions</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+
+									<div class="text-center">
+										<button type="submit" class="btn bg-teal-400">Submit form <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /centered buttons -->
+
 					</div>
 
-					<table class="table datatable-scroll-y" width="100%">
-						<thead>
-							<tr>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Job Title</th>
-								<th>DOB</th>
-								<th>Status</th>
-								<th class="text-center">Actions</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
+					<div class="col-md-4">
+			        	
+		        		<!-- Right alignment -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Right aligned</h6>
+								<div class="header-elements">
 									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group">
+										<label>Your name: </label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Jackelyn</td>
-								<td>Weible</td>
-								<td><a href="#">Airline Transport Pilot</a></td>
-								<td>3 Oct 1981</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
+									<div class="form-group">
+										<label>Your password: </label>
+										<input type="password" class="form-control" placeholder="Your strong password">
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Aura</td>
-								<td>Hard</td>
-								<td>Business Services Sales Representative</td>
-								<td>19 Apr 1969</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
+									<div class="form-group">
+										<label>Your message: </label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Nathalie</td>
-								<td><a href="#">Pretty</a></td>
-								<td>Drywall Stripper</td>
-								<td>13 Dec 1977</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
+									<div class="text-right">
+										<button type="submit" class="btn bg-teal-400">Submit form <i class="icon-paperplane ml-2"></i></button>
 									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sharan</td>
-								<td>Leland</td>
-								<td>Aviation Tactical Readiness Officer</td>
-								<td>30 Dec 1991</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
+								</form>
+							</div>
+		                </div>
+		                <!-- /right alignment -->
 
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxine</td>
-								<td><a href="#">Woldt</a></td>
-								<td><a href="#">Business Services Sales Representative</a></td>
-								<td>17 Oct 1987</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Sylvia</td>
-								<td><a href="#">Mcgaughy</a></td>
-								<td>Hemodialysis Technician</td>
-								<td>11 Nov 1983</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Lizzee</td>
-								<td><a href="#">Goodlow</a></td>
-								<td>Technical Services Librarian</td>
-								<td>1 Nov 1961</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Kennedy</td>
-								<td>Haley</td>
-								<td>Senior Marketing Designer</td>
-								<td>18 Dec 1960</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Chantal</td>
-								<td><a href="#">Nailor</a></td>
-								<td>Technical Services Librarian</td>
-								<td>10 Jan 1980</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Delma</td>
-								<td>Bonds</td>
-								<td>Lead Brand Manager</td>
-								<td>21 Dec 1968</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Roland</td>
-								<td>Salmos</td>
-								<td><a href="#">Senior Program Developer</a></td>
-								<td>5 Jun 1986</td>
-								<td><span class="badge badge-secondary">Inactive</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Coy</td>
-								<td>Wollard</td>
-								<td>Customer Service Operator</td>
-								<td>12 Oct 1982</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Maxwell</td>
-								<td>Maben</td>
-								<td>Regional Representative</td>
-								<td>25 Feb 1988</td>
-								<td><span class="badge badge-danger">Suspended</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td>Cicely</td>
-								<td>Sigler</td>
-								<td><a href="#">Senior Research Officer</a></td>
-								<td>15 Mar 1960</td>
-								<td><span class="badge badge-info">Pending</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+					</div>
 				</div>
-				<!-- /scrollable datatable -->
+				<!-- /form actions positioning -->
+
+
+				<!-- Optional styles -->
+				<div class="mb-3 pt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Optional styles
+					</h6>
+					<span class="text-muted d-block">White, grey and custom backgrounds</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+
+						<!-- Grey background -->
+		                <form action="#">
+				            <div class="card">
+								<div class="card-header header-elements-inline">
+					                <h6 class="card-title">Grey background</h6>
+									<div class="header-elements">
+										<div class="list-icons">
+					                		<a class="list-icons-item" data-action="collapse"></a>
+					                		<a class="list-icons-item" data-action="reload"></a>
+					                		<a class="list-icons-item" data-action="remove"></a>
+					                	</div>
+				                	</div>
+								</div>
+
+				                <div class="card-body">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group mb-0">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+								</div>
+
+								<div class="card-footer d-flex justify-content-between align-items-center">
+									<button type="submit" class="btn btn-light">Cancel</button>
+									<button type="submit" class="btn bg-blue">Submit form <i class="icon-paperplane ml-2"></i></button>
+								</div>
+			                </div>
+			            </form>
+			            <!-- /grey background -->
+
+					</div>
+
+					<div class="col-md-4">
+
+						<!-- White background -->
+		                <form action="#">
+				            <div class="card">
+								<div class="card-header header-elements-inline">
+					                <h6 class="card-title">White background</h6>
+									<div class="header-elements">
+										<div class="list-icons">
+					                		<a class="list-icons-item" data-action="collapse"></a>
+					                		<a class="list-icons-item" data-action="reload"></a>
+					                		<a class="list-icons-item" data-action="remove"></a>
+					                	</div>
+				                	</div>
+								</div>
+
+				                <div class="card-body">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group mb-0">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+								</div>
+
+								<div class="card-footer d-flex justify-content-between align-items-center bg-white">
+									<button type="submit" class="btn btn-light">Cancel</button>
+									<button type="submit" class="btn bg-blue">Submit form <i class="icon-paperplane ml-2"></i></button>
+								</div>
+			                </div>
+			            </form>
+			            <!-- /white background -->
+
+					</div>
+
+					<div class="col-md-4">
+
+						<!-- Custom background -->
+		                <form action="#">
+				            <div class="card">
+								<div class="card-header header-elements-inline">
+					                <h6 class="card-title">Custom background</h6>
+									<div class="header-elements">
+										<div class="list-icons">
+					                		<a class="list-icons-item" data-action="collapse"></a>
+					                		<a class="list-icons-item" data-action="reload"></a>
+					                		<a class="list-icons-item" data-action="remove"></a>
+					                	</div>
+				                	</div>
+								</div>
+
+				                <div class="card-body">
+									<div class="form-group">
+										<label>Your name:</label>
+										<input type="text" class="form-control" placeholder="Eugene Kopyov">
+									</div>
+
+									<div class="form-group">
+										<label>Your password:</label>
+										<input type="password" class="form-control" placeholder="Your strong password">
+									</div>
+
+									<div class="form-group mb-0">
+										<label>Your message:</label>
+										<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+									</div>
+								</div>
+
+								<div class="card-footer d-flex justify-content-between align-items-center bg-teal-400 border-top-0">
+									<button type="submit" class="btn bg-transparent text-white border-white border-2">Cancel</button>
+									<button type="submit" class="btn btn-outline bg-white text-white border-white border-2">Submit form <i class="icon-paperplane ml-2"></i></button>
+								</div>
+			                </div>
+			            </form>
+			            <!-- /custom background -->
+
+					</div>
+				</div>
+				<!-- /optional styles -->
+
+
+				<!-- In horizontal forms -->
+				<div class="mb-3 pt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						In horizontal forms
+					</h6>
+					<span class="text-muted d-block">Styling and alignment options</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+		                
+	                	<!-- Left buttons -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Left buttons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your name:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" placeholder="Eugene Kopyov">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" placeholder="Your strong password">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your message:</label>
+										<div class="col-lg-10">
+											<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+										</div>
+									</div>
+
+									<div class="form-group row mb-0">
+										<div class="col-lg-10 ml-lg-auto">
+											<button type="submit" class="btn btn-light">Cancel</button>
+											<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+										</div>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /left buttons -->
+
+
+		                <!-- Left and right buttons -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Left and right buttons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your name:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" placeholder="Eugene Kopyov">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" placeholder="Your strong password">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your message:</label>
+										<div class="col-lg-10">
+											<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+										</div>
+									</div>
+
+									<div class="form-group row mb-0">
+										<div class="col-lg-10 ml-lg-auto">
+											<div class="d-flex justify-content-between align-items-center">
+												<button type="submit" class="btn btn-light">Cancel</button>
+												<button type="submit" class="btn bg-blue">Submit <i class="icon-paperplane ml-2"></i></button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /left and right buttons -->
+
+					</div>
+
+					<div class="col-md-6">
+		                
+		                <!-- Right buttons -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Right buttons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your name:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" placeholder="Eugene Kopyov">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" placeholder="Your strong password">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your message:</label>
+										<div class="col-lg-10">
+											<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+										</div>
+									</div>
+
+									<div class="form-group row mb-0">
+										<div class="col-lg-10 ml-lg-auto text-right">
+											<button type="submit" class="btn btn-light">Cancel</button>
+											<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+										</div>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /right buttons -->
+
+
+	                	<!-- Left and right buttons (reversed) -->
+			            <div class="card">
+							<div class="card-header header-elements-inline">
+				                <h6 class="card-title">Left and right buttons (reversed)</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+			                <div class="card-body">
+			                	<form action="#">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your name:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" placeholder="Eugene Kopyov">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" placeholder="Your strong password">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your message:</label>
+										<div class="col-lg-10">
+											<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+										</div>
+									</div>
+
+									<div class="form-group row mb-0">
+										<div class="col-lg-10 ml-lg-auto">
+											<div class="d-flex justify-content-between align-items-center">
+												<button type="submit" class="btn bg-blue">Submit <i class="icon-paperplane ml-2"></i></button>
+												<button type="submit" class="btn btn-light">Cancel</button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+		                </div>
+		                <!-- /left and right buttons (reversed) -->
+
+					</div>
+				</div>
+				<!-- /in horizontal forms -->
+
+
+				<!-- Optional button styles -->
+				<div class="mb-3 pt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Optional button styles
+					</h6>
+					<span class="text-muted d-block">Action buttons placement and spacing</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+
+						<!-- Grey background, left button spacing -->
+		                <form action="#">
+				            <div class="card">
+								<div class="card-header bg-white header-elements-inline">
+					                <h6 class="card-title">Grey bg and left spacing</h6>
+									<div class="header-elements">
+										<div class="list-icons">
+					                		<a class="list-icons-item" data-action="collapse"></a>
+					                		<a class="list-icons-item" data-action="reload"></a>
+					                		<a class="list-icons-item" data-action="remove"></a>
+					                	</div>
+				                	</div>
+								</div>
+
+								<div class="card-footer">
+									<div class="row">
+										<div class="col-lg-10 ml-lg-auto">
+											<div class="d-flex justify-content-between align-items-center">
+												<button type="submit" class="btn btn-light">Cancel</button>
+												<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+				                <div class="card-body">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your name:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" placeholder="Eugene Kopyov">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" placeholder="Your strong password">
+										</div>
+									</div>
+
+									<div class="form-group row mb-0">
+										<label class="col-form-label col-lg-2">Your message:</label>
+										<div class="col-lg-10">
+											<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-footer">
+									<div class="row">
+										<div class="col-lg-10 ml-lg-auto">
+											<div class="d-flex justify-content-between align-items-center">
+												<button type="submit" class="btn btn-light">Cancel</button>
+												<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+			                </div>
+			            </form>
+			            <!-- /grey background, left button spacing -->
+
+
+			            <!-- Grey background, no left button spacing -->
+		                <form action="#">
+				            <div class="card">
+								<div class="card-header bg-white header-elements-inline">
+					                <h6 class="card-title">Grey background</h6>
+									<div class="header-elements">
+										<div class="list-icons">
+					                		<a class="list-icons-item" data-action="collapse"></a>
+					                		<a class="list-icons-item" data-action="reload"></a>
+					                		<a class="list-icons-item" data-action="remove"></a>
+					                	</div>
+				                	</div>
+								</div>
+
+								<div class="card-footer">
+									<div class="d-flex justify-content-between align-items-center">
+										<button type="submit" class="btn btn-light">Cancel</button>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</div>
+
+				                <div class="card-body">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your name:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" placeholder="Eugene Kopyov">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" placeholder="Your strong password">
+										</div>
+									</div>
+
+									<div class="form-group row mb-0">
+										<label class="col-form-label col-lg-2">Your message:</label>
+										<div class="col-lg-10">
+											<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-footer">
+									<div class="d-flex justify-content-between align-items-center">
+										<button type="submit" class="btn btn-light">Cancel</button>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</div>
+			                </div>
+			            </form>
+			            <!-- /grey background, no left button spacing -->
+
+					</div>
+
+					<div class="col-md-6">
+
+						<!-- White background, left button spacing -->
+		                <form action="#">
+				            <div class="card">
+								<div class="card-header bg-white header-elements-inline">
+					                <h6 class="card-title">White bg and left spacing</h6>
+									<div class="header-elements">
+										<div class="list-icons">
+					                		<a class="list-icons-item" data-action="collapse"></a>
+					                		<a class="list-icons-item" data-action="reload"></a>
+					                		<a class="list-icons-item" data-action="remove"></a>
+					                	</div>
+				                	</div>
+								</div>
+
+								<div class="card-footer bg-white">
+									<div class="row">
+										<div class="col-lg-10 ml-lg-auto">
+											<div class="d-flex justify-content-between align-items-center">
+												<button type="submit" class="btn btn-light">Cancel</button>
+												<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+				                <div class="card-body">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your name:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" placeholder="Eugene Kopyov">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" placeholder="Your strong password">
+										</div>
+									</div>
+
+									<div class="form-group row mb-0">
+										<label class="col-form-label col-lg-2">Your message:</label>
+										<div class="col-lg-10">
+											<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-footer bg-white">
+									<div class="row">
+										<div class="col-lg-10 ml-lg-auto">
+											<div class="d-flex justify-content-between align-items-center">
+												<button type="submit" class="btn btn-light">Cancel</button>
+												<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+			                </div>
+			            </form>
+			            <!-- /white background, left button spacing -->
+
+
+			            <!-- White background, no left button spacing -->
+		                <form action="#">
+				            <div class="card">
+								<div class="card-header bg-white header-elements-inline">
+					                <h6 class="card-title">White background</h6>
+									<div class="header-elements">
+										<div class="list-icons">
+					                		<a class="list-icons-item" data-action="collapse"></a>
+					                		<a class="list-icons-item" data-action="reload"></a>
+					                		<a class="list-icons-item" data-action="remove"></a>
+					                	</div>
+				                	</div>
+								</div>
+
+								<div class="card-footer bg-white">
+									<div class="d-flex justify-content-between align-items-center">
+										<button type="submit" class="btn btn-light">Cancel</button>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</div>
+
+				                <div class="card-body">
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your name:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" placeholder="Eugene Kopyov">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-lg-2">Your password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" placeholder="Your strong password">
+										</div>
+									</div>
+
+									<div class="form-group row mb-0">
+										<label class="col-form-label col-lg-2">Your message:</label>
+										<div class="col-lg-10">
+											<textarea rows="3" cols="3" class="form-control" placeholder="Enter your message here"></textarea>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-footer bg-white">
+									<div class="d-flex justify-content-between align-items-center">
+										<button type="submit" class="btn btn-light">Cancel</button>
+										<button type="submit" class="btn bg-blue ml-3">Submit <i class="icon-paperplane ml-2"></i></button>
+									</div>
+								</div>
+			                </div>
+			            </form>
+			            <!-- /white background, no left button spacing -->
+
+					</div>
+				</div>
+				<!-- /optional button styles -->
 
 			</div>
 			<!-- /content area -->
@@ -2841,7 +2572,7 @@
 			<!-- /footer -->
 
 		</div>
-		<!-- /main content -->
+		<!-- /content wrapper -->
 
 	</div>
 	<!-- /page content -->
